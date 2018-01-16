@@ -1,0 +1,7 @@
+<?php 
+
+//String concatenate the character string "abc" and the character string "123" and assign the result to the variable "s"
+$s = "abc"."123";
+
+
+?>

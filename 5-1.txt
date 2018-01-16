@@ -1,0 +1,45 @@
+<?php 
+
+class MyClass {
+
+	private $file_name;
+	private $file;
+
+	function __construct($param) {
+		try{
+			$file_name = $param;
+
+			if ( !file_exists($file_name) ) {
+	      throw new Exception('File not found.');
+	    }
+	    $file = fopen($file_name, "rb");
+	    if ( !$file ) {
+	      throw new Exception('File open failed.');
+	    }
+
+	    $this->$file_name;
+	    $this->$file;
+
+    } catch ( Exception $e ) {
+      // send error message if you can
+    } 
+ 	}
+
+
+ 	function __destruct() {
+    fclose($this->$file);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+?>

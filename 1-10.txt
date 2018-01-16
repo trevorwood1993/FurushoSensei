@@ -1,0 +1,25 @@
+<?php 
+
+class SimpleClass
+{
+
+	function __construct() {
+
+ 	}
+
+  private $price;
+
+  public function setPrice($x) {
+     $this->$price = $x;
+  }
+
+  public function getPriceWithTax(){
+  	return round($price*1.08);
+  }
+
+}
+
+
+
+
+?>

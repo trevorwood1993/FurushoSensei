@@ -1,0 +1,8 @@
+<?php 
+//(1 + 2) * 3 and substitute the result into the variable "i"
+$i = (1 + 2) * 3;
+
+
+
+
+?>

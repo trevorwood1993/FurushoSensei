@@ -1,0 +1,9 @@
+<?php 
+//Substitute the character string "123" for the variable name "val"
+$val = "123";
+
+
+
+
+
+?>

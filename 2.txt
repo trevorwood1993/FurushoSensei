@@ -1,0 +1,13 @@
+<?php 
+
+
+function boomboom($arg){
+	if(is_array($arg)){
+		$arg[] = "end";
+	}
+
+}
+
+
+
+?>

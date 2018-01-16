@@ -1,0 +1,11 @@
+<?php 
+
+
+// Write a function that has two arguments and the return value 
+// is "add (add) (add) (adds) two arguments" Function name is arbitrary
+function add($one,$two){
+	return $one+$two;
+}
+
+
+?>
